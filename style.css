@@ -1,0 +1,59 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font-family: "Rubik", monospace;
+}
+
+/* Header */
+
+header {
+  padding: 64px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-primary {
+  font-size: 40px;
+}
+
+button {
+  background-color: rgba(220, 0, 0, 1);
+  padding: 12px;
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 2.5;
+}
+
+button:hover {
+  background-color: rgb(217, 46, 46);
+}
+
+button:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* MAIN SECTION */
+
+main {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+h3 {
+  font-size: 18px;
+}
