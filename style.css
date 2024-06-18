@@ -57,3 +57,9 @@ main {
 h3 {
   font-size: 18px;
 }
+
+.grid {
+  width: 960px;
+  display: flex;
+  justify-content: start;
+}
