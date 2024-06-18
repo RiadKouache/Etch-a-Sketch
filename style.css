@@ -60,6 +60,15 @@ h3 {
 
 .grid {
   width: 960px;
+  height: 960px;
   display: flex;
-  justify-content: start;
+
+  flex-wrap: wrap;
+  border: 2px solid black;
+}
+
+.square {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  border: 2px solid black;
 }
