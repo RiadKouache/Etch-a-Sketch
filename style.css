@@ -73,4 +73,5 @@ h3 {
   border: 2px solid black;
   box-sizing: border-box;
   flex: 0 0 auto;
+  background-color: #fff;
 }
