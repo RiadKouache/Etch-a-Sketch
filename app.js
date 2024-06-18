@@ -37,5 +37,17 @@ for (let i = 0; i < 16; i++) {
     squareDiv.style.height = squareHeight + "px";
     squareDiv.classList.add("square");
     grid.appendChild(squareDiv);
+
+    // const square = document.querySelector(".square");
+
+    squareDiv.addEventListener("mouseover", (e) => {
+      let rgb1 = Math.floor(Math.random() * 256);
+      let rgb2 = Math.floor(Math.random() * 256);
+      let rgb3 = Math.floor(Math.random() * 256);
+      if (!e.target.style.backgroundColor) {
+        e.target.style.backgroundColor =
+          "rgb(" + rgb1 + "," + rgb2 + "," + rgb3 + ")";
+      }
+    });
   }
 }
